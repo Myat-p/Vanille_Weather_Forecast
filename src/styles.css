@@ -1,0 +1,95 @@
+body{
+background-color:#edfbff;
+}
+.weather-container {
+width: 500px;
+background-color: white;
+display: center;
+margin: 50px auto;
+padding: 35px;
+border-radius:20px;
+box-shadow: 5px 9px 5px 1px rgba(0,0,0,0.08);
+}
+
+.weather-input-form{
+margin-bottom:10px;
+
+}
+
+strong{
+color:blue;
+}
+
+#weather-city-input{
+background-color:#edfbff;
+border-radius:4px;
+width:80%;
+padding:12px;
+border: 1px solid black;
+}
+
+#weather-submit{
+background-color:#edfbff;
+border-radius:4px;
+padding:12px;
+border: 1px solid black;
+
+}
+
+.weather-sub-container {
+display:flex;
+justify-content:space-between;
+}
+
+.weather-info{
+line-height:2em;
+}
+
+.weather-app-info{
+font-weight:400;
+font-size:14px;
+}
+
+.weather-temperature{
+display:flex;
+margin-top:20px;
+}
+
+.weather-icon{
+margin-top:6px;
+}
+
+.weather-degree {
+font-size:70px;
+font-weight:600;
+padding-top:0px;
+}
+img{
+width:70px;
+
+}
+.weather-unit{
+margin-top:22px;
+font-size:20px;
+}
+
+.weather-about{
+font-size:12px;
+font-weight:500;
+padding-top:28px;
+
+}
+a{
+color:purple;
+font-weight:100px;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
