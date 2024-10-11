@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanille Weather Search</title>
+    <link rel="stylesheet" href="src/styles.css" />
+	<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body class="roboto-regular">
+	<div class="weather-container">
+	<header>
+	<form class="weather-input-form">
+	<input type="text" id="weather-city-input" placeholder="Enter a city">
+	<input type="submit" id="weather-submit" value="Search">
+	</form>
+	</header>
+	<main>
+	<div class="weather-sub-container">
+	<div>
+	<h1> Myanmar </h1>
+	<div  class="weather-app-info">
+	<div> <span class="weather-day">Tuesday</span> <span class="weather-time">19:07</span>, <span class="weather-condition">clear sky</span> </div>
+
+	<div class="weather-info">Humidity 
+	<strong><span class="weather-humidity">38</span>%</strong>, Wind <strong><span class="weather-wind">2.57</span>km/h</strong></div>
+	
+	</div>
+	</div>
+	<div class="weather-temperature">
+	<div class="weather-icon"><img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"></div>
+	<div class="weather-degree">27</div> 
+	<div class="weather-unit">℃</div>
+	</div>
+	</div>
+	</main>
+	<footer>
+	<p class="weather-about"> This project was coded by <a href="https://github.com/Myat-p" target="_blank">Myat Pwint Phyu </a>,is <a href="https://github.com/Myat-p/Vanille_Weather_Forecast.git" target="_blank">code-sourced on GitHub</a> and <a href="" target="_blank">hosted on Netlify</a></p>
+	</div>
+	</footer>
+  </body>
+
+  <script src="src/index.js"></script>
+</html>
