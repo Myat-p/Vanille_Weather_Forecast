@@ -1,5 +1,5 @@
 body{
-background-color:#edfbff;
+background-color:#f8f4f8;
 }
 .weather-container {
 width: 500px;
@@ -13,27 +13,27 @@ box-shadow: 5px 9px 5px 1px rgba(0,0,0,0.08);
 
 .weather-input-form{
 margin-bottom:10px;
-
 }
 
 strong{
-color:blue;
+color:#7F00FF;
 }
 
 #weather-city-input{
-background-color:#edfbff;
-border-radius:4px;
+background-color:#f4f1ff;
+//background-color:#eaf9ff;
+border-radius:8px;
 width:80%;
 padding:12px;
-border: 1px solid black;
+border: 1px solid white;
 }
 
 #weather-submit{
-background-color:#edfbff;
-border-radius:4px;
+background-color:#7F00FF;
+color:white;
+border-radius:8px;
 padding:12px;
-border: 1px solid black;
-
+border: 1px solid white;
 }
 
 .weather-sub-container {
@@ -66,10 +66,9 @@ padding-top:0px;
 }
 img{
 width:70px;
-
 }
 .weather-unit{
-margin-top:22px;
+margin-top:12px;
 font-size:20px;
 }
 
@@ -80,7 +79,7 @@ padding-top:28px;
 
 }
 a{
-color:purple;
+color:#7F00FF;
 font-weight:100px;
 }
 .roboto-regular {
