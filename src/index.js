@@ -79,7 +79,7 @@ if (index < 5){
 weatherInfo=weatherInfo + `<div class="weatherdailyForecast">
 	<div class="weatherday">${DayWeather(day.time)}</div>
 	<div><img src="${day.condition.icon_url}" class="weatherdaily-icon"></div>
-	<div class="weatherdaily-temperature"><span class="high-degree">${Math.round(day.temperature.maximum)}</span><span class="low-degree">${Math.round(day.temperature.minimum)}</span></div>
+	<div class="weatherdaily-temperature"><span class="high-degree">${Math.round(day.temperature.maximum)}°</span><span class="low-degree">${Math.round(day.temperature.minimum)}°</span></div>
 	</div>`;
 
 let weatherDailyElement=document.querySelector("#weatherForecast");
