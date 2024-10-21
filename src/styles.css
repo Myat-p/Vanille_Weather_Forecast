@@ -72,6 +72,29 @@ margin-top:12px;
 font-size:20px;
 }
 
+.weatherdailyForecast{
+text-align:center;
+margin-top:30px;
+line-height:2em;
+}
+#weatherForecast{
+display:flex;
+justify-content: space-around;
+}
+.high-degree{
+font-weight:bold;
+margin-right: 10px;
+}
+.weatherdaily-temperature{
+color:#7F00FF;
+font-size:14px;
+}
+
+.weatherdaily-icon{
+width:60%;
+display:block;
+margin:0 auto;
+}
 .weather-about{
 font-size:12px;
 font-weight:500;
